@@ -1,0 +1,532 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"set",
+				"setDistanceBetweenPoint"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"a",
+				"ajax"
+			],
+			[
+				"onLoa",
+				"onLoadComplete"
+			],
+			[
+				"hyper",
+				"hyperlapse"
+			],
+			[
+				"hyp",
+				"hyperlapse"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"insert",
+				"mysql_insert_id"
+			],
+			[
+				"start",
+				"start_pin"
+			],
+			[
+				"get",
+				"getDay"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "idea.html",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "special.html",
+			"settings":
+			{
+				"buffer_size": 4146,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"w3c",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"GIT ADD",
+				"Git: Add Current File"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"w3",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"GIT PULL",
+				"Git: Pull"
+			],
+			[
+				"W3",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"W3C",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpfmt",
+				"phpfmt: build autocomplete database"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/Internettechnologie"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/Internettechnologie/tekenen.html",
+		"/opt/lampp/htdocs/Internettechnologie/avans.svg",
+		"/opt/lampp/htdocs/Follow-me/html/viewer.php",
+		"/opt/lampp/htdocs/Follow-me/html/index.php",
+		"/home/joris/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/opt/lampp/htdocs/Follow-me/html/js/GSVPano.js",
+		"/opt/lampp/htdocs/Follow-me/html/creator.php",
+		"/opt/lampp/htdocs/Follow-me/html/config.php",
+		"/opt/lampp/htdocs/Follow-me/html/saveroute.php",
+		"/opt/lampp/htdocs/Follow-me/html/getcords.php",
+		"/opt/lampp/htdocs/Follow-me/html/config.php.example",
+		"/opt/lampp/htdocs/Follow-me/html/tester.html",
+		"/opt/lampp/htdocs/Follow-me/html/simple.html",
+		"/home/joris/.config/sublime-text-3/Packages/PHPSimpleRefactor/PHPSimpleRefactor.sublime-settings",
+		"/home/joris/.config/sublime-text-3/Packages/phpfmt/message",
+		"/home/joris/.config/sublime-text-3/Packages/phpfmt/phpfmt.sublime-settings",
+		"/home/joris/.config/sublime-text-3/Packages/User/phpfmt.sublime-settings",
+		"/opt/lampp/htdocs/Follow-me/docs/scripts/prettify/Apache-License-2.0.txt",
+		"/opt/lampp/htdocs/Follow-me/LICENSE",
+		"/home/joris/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/joris/school/Follow-me/.gitignore",
+		"/home/joris/school/Follow-me/html/index.php",
+		"/home/joris/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/joris/school/Follow-me/html/Followme.sublime-project",
+		"/home/joris/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/joris/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/joris/test.html",
+		"/home/joris/Documents/output.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"A",
+			"hyperlapse.",
+			"play",
+			"handleDirectionsRoute",
+			"reset",
+			"generate",
+			"genera",
+			"canvas",
+			"hyperlapse.",
+			"var o",
+			"var 0",
+			"pano",
+			"`",
+			"save",
+			"eye",
+			"eye\\",
+			"camera_pin",
+			"logo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"a",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								959,
+								959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "idea.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "special.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1191,
+								1191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"project": "internettecht.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
