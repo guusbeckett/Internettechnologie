@@ -59,15 +59,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1843,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "idea.html",
-			"settings":
-			{
-				"buffer_size": 376,
+				"buffer_size": 2329,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +67,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 484,
+				"buffer_size": 493,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +75,7 @@
 			"file": "special.html",
 			"settings":
 			{
-				"buffer_size": 4146,
+				"buffer_size": 4155,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,24 +83,32 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 138.0,
 		"selected_items":
 		[
 			[
-				"inst",
-				"Package Control: Install Package"
+				"git push",
+				"Git: Push"
 			],
 			[
 				"git pull",
 				"Git: Pull"
 			],
 			[
-				"git push",
-				"Git: Push"
-			],
-			[
 				"git commit",
 				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"git add",
@@ -165,10 +165,6 @@
 			[
 				"git",
 				"Git: Pull"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"snip",
@@ -244,6 +240,7 @@
 	],
 	"file_history":
 	[
+		"/opt/lampp/htdocs/Internettechnologie/README.md",
 		"/opt/lampp/htdocs/Internettechnologie/tekenen.html",
 		"/opt/lampp/htdocs/Internettechnologie/avans.svg",
 		"/opt/lampp/htdocs/Follow-me/html/viewer.php",
@@ -335,43 +332,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1843,
+						"buffer_size": 2329,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								959,
-								959
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "idea.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 376,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120,
-								120
+								958,
+								958
 							]
 						],
 						"settings":
@@ -383,24 +352,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 484,
+						"buffer_size": 493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								444,
-								444
+								381,
+								381
 							]
 						],
 						"settings":
@@ -416,20 +385,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "special.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4146,
+						"buffer_size": 4155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1191,
-								1191
+								3990,
+								3990
 							]
 						],
 						"settings":
@@ -438,7 +407,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -489,7 +458,7 @@
 	"project": "internettecht.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
