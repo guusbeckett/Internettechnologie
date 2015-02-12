@@ -1,0 +1,8 @@
+Type:ALARMREQ
+AlarmAmount:1
+AlarmTextA:25
+AlarmStreamIDA:0
+AlarmTypeA:0
+AlarmTimeA:1
+end
+
