@@ -130,36 +130,56 @@ body {
 	border-radius: 8px 8px 0px 0px;
 }
 
-#login-title{
-	padding-right: 80px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
-	color: white;
-	font-size: 64px;
-}
 
-#radioName{
-	/*background: transparent no-repeat;*/
-	color: #CDC3C9;
-	border-radius: 10px;
-	background-color: white;
-	font-size: 32px;
-	border:0;
-	padding:4px 8px;
-	margin-bottom:0px;
-}
+/*
+ *
+ *	Login page specific tags 
+ *	
+ */
 
-#login-page-content{
-	padding-top: 20%;
-	text-align: center;
-}
+ #login-title{
+ 	padding-right: 80px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: lighter;
+ 	color: white;
+ 	font-size: 64px;
+ }
 
-#go-button{
-	font-family: 'Roboto', sans-serif;
-	display: inline;
-	color: #9CFF61;
-	font-size: 32px;
-	border:0;
-	padding:4px 8px;
-	margin-bottom:0px;
-}
+ #radioName{
+ 	/*background: transparent no-repeat;*/
+ 	color: #A29B9F;
+ 	border-radius: 10px;
+ 	background-color: white;
+ 	font-size: 32px;
+ 	border:0;
+ 	padding:4px 8px;
+ 	margin-bottom:0px;
+ }
+
+ #login-page-content{
+ 	padding-top: 20%;
+ 	text-align: center;
+ }
+
+ #go-button{
+ 	font-family: 'Roboto', sans-serif;
+ 	display: inline;
+ 	color: #A29B9F;
+ 	font-size: 32px;
+ 	border:0;
+ 	padding:4px 8px;
+ 	margin-bottom:0px;
+ }
+
+ ::-webkit-input-placeholder {
+ 	color:    #CDC3C9;
+ }
+ :-moz-placeholder {
+ 	color:    #CDC3C9;
+ }
+ ::-moz-placeholder {
+ 	color:    #CDC3C9;
+ }
+ :-ms-input-placeholder {
+ 	color:    #CDC3C9;
+ }
