@@ -34,7 +34,7 @@ function checkCookie() // Check cookie on login
     }
     else
     {
-        window.location = 'login.html';
+        window.location = 'login.php';
     }
 }
 
@@ -57,7 +57,7 @@ function deletecookie() //Delete Cookie on logout
     var expires = "expires=" + d.toGMTString();
     document.cookie = "radioID=" + ";" + expires;
     document.cookie = "radioName=" + ";" + expires;
-    window.location = 'login.html';
+    window.location = 'login.php';
 }
 
 function getJsonFile() //Get the json file with info about streams alarms
@@ -148,7 +148,7 @@ function populateSavedAlarms(select, data) //populate Alarms
     $.each(data, function(id, option)
     {
         if (moment(option.time)<now) {
-        items.push('<a href="#" class="list-group-item list-group-item-warning" onclick="editalarm(\'' + option.desc + '\', \'' + option.time +'\')""><i class="fa fa-bell fa-fw"><\/i> ' + option.desc + '<\/br><span class="text-muted small"><em>' + option.time + '<\/em><\/span><\/a>');
+            items.push('<a href="#" class="list-group-item list-group-item-warning" onclick="editalarm(\'' + option.desc + '\', \'' + option.time +'\')""><i class="fa fa-bell fa-fw"><\/i> ' + option.desc + '<\/br><span class="text-muted small"><em>' + option.time + '<\/em><\/span><\/a>');
         }
         else
         {
@@ -305,19 +305,19 @@ function saveStream() //Save added Stream
 {
     var newStreamName = document.getElementById('newStreamName').value;
     var newStreamURL = document.getElementById('newStreamURL').value;
-        var newStreamRadioID = getCookie("radioID");
-        $.ajax(
+    var newStreamRadioID = getCookie("radioID");
+    $.ajax(
+    {
+        url: 'http://188.166.22.194/cgi-bin/api.php?q=addstream&name=' + newStreamName + '&url=' + newStreamURL + '&id=' + newStreamRadioID,
+        dataType: 'json',
+        success: function(response)
         {
-            url: 'http://188.166.22.194/cgi-bin/api.php?q=addstream&name=' + newStreamName + '&url=' + newStreamURL + '&id=' + newStreamRadioID,
-            dataType: 'json',
-            success: function(response)
-            {
-                json = response;
-                $('#myModal').modal('hide');
-                getJsonFile();
-                populateSavedStreams(document.getElementById('streamselect'), json.streams);
-            }
-        });
+            json = response;
+            $('#myModal').modal('hide');
+            getJsonFile();
+            populateSavedStreams(document.getElementById('streamselect'), json.streams);
+        }
+    });
 }
 
 function saveAlarm() //Save added Alarm
@@ -328,29 +328,29 @@ function saveAlarm() //Save added Alarm
     newAlarmType = 0;
     newAlarmTime = document.getElementById('timeAlarm').value;
     var newAlarmDesc = document.getElementById('newAlarmDesc').value;
-        if (newAlarmTime == "" || newAlarmDesc == "") {
+    if (newAlarmTime == "" || newAlarmDesc == "") {
         bootstrap_alert.warning('Warning: I think you forgot something.');
         window.setTimeout(closealert, 5000);
         $('#addAlarm').modal('hide');
     }
     else{
-    var newStreamRadioID = getCookie("radioID");
-    $.ajax(
-    {
-        url: 'http://188.166.22.194/cgi-bin/api.php?q=addalarm&id=' + newStreamRadioID + '&time=' + newAlarmTime + '&type=' + newAlarmType + '&stream=' + newAlarmStream + '&desc=' + newAlarmDesc,
-        dataType: 'json',
-        success: function(response)
+        var newStreamRadioID = getCookie("radioID");
+        $.ajax(
         {
-            bootstrap_alert.success('Success: Alarm saved');
-            window.setTimeout(closealert, 5000);
-            json = response;
-            $('#addAlarm').modal('hide');
-            getJsonFile();
-            populateSavedAlarms(document.getElementById('alarmselect'), json.alarms);
-            refresh();
-        }
-    });
-}
+            url: 'http://188.166.22.194/cgi-bin/api.php?q=addalarm&id=' + newStreamRadioID + '&time=' + newAlarmTime + '&type=' + newAlarmType + '&stream=' + newAlarmStream + '&desc=' + newAlarmDesc,
+            dataType: 'json',
+            success: function(response)
+            {
+                bootstrap_alert.success('Success: Alarm saved');
+                window.setTimeout(closealert, 5000);
+                json = response;
+                $('#addAlarm').modal('hide');
+                getJsonFile();
+                populateSavedAlarms(document.getElementById('alarmselect'), json.alarms);
+                refresh();
+            }
+        });
+    }
 }
 
 function updateAlarm() //Save added Alarm
@@ -427,7 +427,7 @@ function register()
                 $('#myModal').modal('hide');
                 document.cookie = "radioID=" + radioRegID + ";" + expires;
                 document.cookie = "radioName=" + radioRegNaam + ";" + expires;
-                window.location = 'index.html';
+                window.location = 'index.php';
                 return;
             }
         }
@@ -467,7 +467,7 @@ function logincheck()
                         var id = json2.result.split('to id ');
                         document.cookie = "radioID=" + id[1] + ";" + expires;
                         document.cookie = "radioName=" + radioNaam + ";" + expires;
-                        window.location = 'index.html';
+                        window.location = 'index.php';
                     }
                 });
                 return;

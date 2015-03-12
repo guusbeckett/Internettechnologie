@@ -37,7 +37,7 @@
                 "sr-only">Toggle navigation</span><span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span></button> <a class=
-                "navbar-brand" href="index.html" id="brandID"><img width="40" height="40" src=
+                "navbar-brand" href="index.php" id="brandID"><img width="40" height="40" src=
                         "https://reupload.nl/radio/pics/ComfyCorpLogoConcept.png"><b>omfy Radio</b></a>
             </div><!-- /.navbar-header -->
 
@@ -111,7 +111,7 @@
                         "https://reupload.nl/radio/pics/logo.png"></div><!-- /input-group -->
                     </li>
 
-                    <li><a href="index.html"><i class="ionicons ion-speedometer"> Dashboard</i></a></li>
+                    <li><a href="index.php"><i class="ionicons ion-speedometer"> Dashboard</i></a></li>
                 </ul><!-- /#side-menu -->
             </div><!-- /.sidebar-collapse -->
         </nav><!-- /.navbar-static-side -->

@@ -29,7 +29,7 @@ function checkCookie() // Check cookie on login
     }
     else
     {
-        window.location = 'login.html';
+        window.location = 'login.php';
     }
 }
 
@@ -52,7 +52,7 @@ function deletecookie() //Delete Cookie on logout
     var expires = "expires=" + d.toGMTString();
     document.cookie = "radioID=" + ";" + expires;
     document.cookie = "radioName=" + ";" + expires;
-    window.location = 'login.html';
+    window.location = 'login.php';
 }
 
 function getJsonFile() //Get the json file with info about streams alarms
@@ -302,7 +302,7 @@ function register()
                 $('#myModal').modal('hide');
                 document.cookie = "radioID=" + radioRegID + ";" + expires;
                 document.cookie = "radioName=" + radioRegNaam + ";" + expires;
-                window.location = 'index.html';
+                window.location = 'index.php';
                 return;
             }
         }
@@ -342,7 +342,7 @@ function logincheck()
                         var id = json2.result.split('to id ');
                         document.cookie = "radioID=" + id[1] + ";" + expires;
                         document.cookie = "radioName=" + radioNaam + ";" + expires;
-                        window.location = 'index.html';
+                        window.location = 'index.php';
                     }
                 });
                 return;
