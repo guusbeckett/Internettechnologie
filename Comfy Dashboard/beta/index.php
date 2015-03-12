@@ -12,8 +12,10 @@
 			<h1>Comfy Corp</h1>
 		</div>
 		<div class="banner">
+			<div class="like"><a href="#"><img class="heart" src="img/icon/heart.png"> Like!</a></div>
 			<div class="title">Koude Kerst 2</div>
 			<div class="subtitle">Sven van Heugten</div>
+			<div class="bottom"></div>
 		</div>
 		<div class="menu2">
 
