@@ -100,6 +100,7 @@ body {
 #radioName{
 	/*background: transparent no-repeat;*/
 	color: #CDC3C9;
+	border-radius: 10px;
 	background-color: white;
 	font-size: 32px;
 	border:0;
