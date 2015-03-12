@@ -5,8 +5,8 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <div id="login-page-content">
-  <div id="login-title">Radio Login</div>
-  <form onsubmit="return logincheck()" role="form">
+  <div id="login-title">Radio login</div>
+  <form onsubmit="return logincheck()" role="form" style="padding-top: 1%;">
     <!-- <div class="form-group"> -->
     <input id="radioName" class="form-control" placeholder="Radio name" name="radioName" type="radioName" autofocus>
     <div id="go-button">Go</div>
@@ -20,23 +20,23 @@
         {
           logincheck();
           return false;
-        }
       }
-    </script>
-    <?php
-    $con = mysqli_connect("localhost","ipac_user","kissFM","ipac_user");
+  }
+</script>
+<?php
+$con = mysqli_connect("localhost","ipac_user","kissFM","ipac_user");
 
 // Check connection
-    if (mysqli_connect_errno())
-    {
-      echo "Failed to connect to MySQL: " . mysqli_connect_error();
-    }
-    else
-    {
+if (mysqli_connect_errno())
+{
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+else
+{
         // echo "Hi";
-    }
-    ?>
-  </div>
-  <!-- Core Scripts - Include with every page -->
+}
+?>
+</div>
+<!-- Core Scripts - Include with every page -->
 </body>
 </html>
