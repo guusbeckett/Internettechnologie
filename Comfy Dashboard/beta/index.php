@@ -15,7 +15,7 @@
 			<div class="like"><a href="#"><img class="heart" src="img/icon/heart.png"> Like!</a></div>
 			<div class="title">Koude Kerst 2</div>
 			<div class="subtitle">Sven van Heugten</div>
-			<div class="bottom"></div>
+			<div class="bottom"><div class="sub"><img src="img/icon/play.png">Stream</div><div class="sub">News</div><div class="sub"><img src="img/icon/sun.png">Weather</div></div>
 		</div>
 		<div class="menu2">
 
