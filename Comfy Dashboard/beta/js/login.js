@@ -17,6 +17,7 @@ function checkRadioNameValidity(field)
 
 function logincheck()
 {
+	$('.bounce').removeClass('bounce');
 	var json;
 	var json2;
 	var radioNaam = document.getElementById('radioName').value;
@@ -55,7 +56,8 @@ function logincheck()
 			}
 			else(json.result == "name " + radioNaam + " is invalid");
 			{
-				bootstrap_alert.warning('This radio was not found');
+				// bootstrap_alert.warning('This radio was not found');
+				document.getElementById('radioName').className = "bounce";
 				return;
 			}
 		}
