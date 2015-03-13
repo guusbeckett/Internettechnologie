@@ -3,7 +3,8 @@
 <head>
   <title>Welcome</title>
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/animations.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <script src="js/login.js"></script>
 </head>
 <div id="login-page-content">

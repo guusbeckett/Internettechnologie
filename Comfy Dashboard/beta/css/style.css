@@ -6,6 +6,11 @@ body {
 	background-size: cover;
 } 
 
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
 .container{
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -44,6 +49,9 @@ body {
 
 .menu h1{
 	font-family: 'Roboto', sans-serif;
+	color: #5C5454;
+	font-size: 22px;
+	font-weight: lighter;
 	position: relative;
 	top: 25px;
 	left: 10px;
@@ -54,7 +62,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
-	height: 550px;
+	height: 500px;
 	position:relative;
 }
 
@@ -69,18 +77,13 @@ body {
 .banner .like{
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
-	font-size: 11px;
+	font-size: 16px;
 	font-weight: lighter;
 	position: relative;
-	width: 50px;
-	height: 20px; ;
-	top: 80px;
+	width: 70px;
+	height: 20px;
 	left: 50px;
-}
-
-.banner .like a{
-	color: #ffffff;
-	text-decoration: none;
+	top: 90px;
 }
 
 .banner .title{
@@ -105,29 +108,51 @@ body {
 
 .banner .bottom{
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	background-color: rgba(0, 0, 0, 0.66) ;
 	position:absolute; 
 	bottom:0;
 }
 
-.banner .bottom .sub{
+.banner .bottom .item{
+	margin-top: 7px;
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 	font-size: 18px;
+	width: 180px;
+	height: 100%;
 	float: left;
 }
 
-.menu2 {
-	background-color: #000000;
-	margin-top: 35px;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: auto;
-	height: 350px;
-	-webkit-border-radius: 8px 8px 0px 0px;
-	-moz-border-radius: 8px 8px 0px 0px;
-	border-radius: 8px 8px 0px 0px;
+.banner .bottom .item:hover{
+	color: #CBC9C9
+}
+
+.item .colorbar{
+	width: 180px;
+	height: 5px;
+	position: absolute;
+	bottom: 40px;
+}
+
+.orange{
+	background-color: #F5C650 ;
+}
+
+.purple{
+	background-color: #99A2E7 ;
+}
+
+.blue{
+	background-color: #65CEE3 ;
+}
+
+.content{
+	background-color: #EDEFF0;
+	width: 100%;
+	height: 300px;
+	position: relative;
 }
 
 
