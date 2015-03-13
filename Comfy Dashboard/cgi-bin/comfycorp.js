@@ -319,11 +319,11 @@ function logincheck()
     var expires = "expires=" + d.toGMTString();
     bootstrap_alert = function()
     {};
-    bootstrap_alert.warning = function(message)
-    {
-        $('#alert_placeholder').html('<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>' + message + '</span></div>');
-    };
-    $.ajax(
+    // bootstrap_alert.warning = function(message)
+    // {
+    //     $('#alert_placeholder').html('<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><span>' + message + '</span></div>');
+    // };
+    this.ajax(
     {
         url: 'http://188.166.22.194/cgi-bin/api.php?q=validate&name=' + radioNaam,
         dataType: 'json',
@@ -332,7 +332,7 @@ function logincheck()
             json = response;
             if (json.result == "name " + radioNaam + " is valid")
             {
-                $.ajax(
+                this.ajax(
                 {
                     url: 'http://188.166.22.194/cgi-bin/api.php?q=getid&name=' + radioNaam,
                     dataType: 'json',
