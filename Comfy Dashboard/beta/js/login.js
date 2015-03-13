@@ -1,5 +1,12 @@
+function load() // Called when page is loaded, will call the next files/functions
+{
+	//  Why doesn't this work?
+	checkRadioNameValidity(document.getElementById('radioName'));
+}
+
 function checkRadioNameValidity(field) 
 {
+
 	var maxlimit = 30;
 	var minlimit = 3;
 	var x = document.getElementById('go-button');
@@ -57,6 +64,10 @@ function logincheck()
 			else(json.result == "name " + radioNaam + " is invalid");
 			{
 				// bootstrap_alert.warning('This radio was not found');
+
+				//  Is this colour change overkill?
+				// var x = document.getElementById('go-button');
+				// x.style.color = '#ED0006';
 				document.getElementById('radioName').className = "shake";
 				return;
 			}
