@@ -3,6 +3,7 @@
 <head>
   <title>Welcome</title>
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <div id="login-page-content">
   <div id="login-title">Radio login</div>
@@ -20,23 +21,23 @@
         {
           logincheck();
           return false;
+        }
       }
-  }
-</script>
-<?php
-$con = mysqli_connect("localhost","ipac_user","kissFM","ipac_user");
+    </script>
+    <?php
+    $con = mysqli_connect("localhost","ipac_user","kissFM","ipac_user");
 
 // Check connection
-if (mysqli_connect_errno())
-{
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
-else
-{
+    if (mysqli_connect_errno())
+    {
+      echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
+    else
+    {
         // echo "Hi";
-}
-?>
-</div>
-<!-- Core Scripts - Include with every page -->
+    }
+    ?>
+  </div>
+  <!-- Core Scripts - Include with every page -->
 </body>
 </html>
