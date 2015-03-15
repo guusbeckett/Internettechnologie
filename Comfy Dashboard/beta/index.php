@@ -42,7 +42,7 @@
 			hier is news hier
 		</div>
 		<div  id="weather" class="content">
-			hier is weather straks
+			<div id="weatherdiv"></div>
 		</div>
 	</div>
 </body>
