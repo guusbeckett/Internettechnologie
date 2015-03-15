@@ -1,0 +1,21 @@
+$(document).ready(function(){
+	$("#news").hide();
+	$("#weather").hide();
+	$("#stream").show();
+
+	$("#nieuws").click(function(){
+		$("#news").show();
+		$("#weather").hide();
+		$("#stream").hide();
+	});
+	$("#weer").click(function(){
+		$("#news").hide();
+		$("#weather").show();
+		$("#stream").hide();
+	});
+	$("#play").click(function(){
+		$("#news").hide();
+		$("#weather").hide();
+		$("#stream").show();
+	});
+})

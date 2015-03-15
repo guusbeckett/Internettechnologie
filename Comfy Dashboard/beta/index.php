@@ -6,7 +6,9 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/animations.css">
+	<script src="js/jquery-1.11.0.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<div class="container mainBlock">
@@ -19,28 +21,28 @@
 			<div class="title slideUp">Koude Kerst 2</div>
 			<div class="subtitle slideUp">Sven van Heugten</div>
 			<div class="bottom">
-				<a href="#">
-					<div class="item">
-						<div class="colorbar purple stretchRight"></div>
-						<i class="fa fa-play"></i> Stream
-					</div>
-				</a>
-				<a href="#">
-					<div class="item">
-						<div class="colorbar orange stretchRight"></div>
-						<i class="fa fa-newspaper-o"></i> Nieuws
-					</div>
-				</a>
-				<a href="#">
-					<div class="item">
-						<div class="colorbar blue stretchRight"></div>
-						<i class="fa fa-cloud"></i> Weer
-					</div>
-				</a>
+				<div id="play" class="item active">
+					<div class="colorbar purple stretchRight"></div>
+					<i class="fa fa-play"></i> Stream
+				</div>
+				<div id="nieuws" class="item">
+					<div class="colorbar orange stretchRight"></div>
+					<i class="fa fa-newspaper-o"></i> Nieuws
+				</div>
+				<div id="weer" class="item">
+					<div class="colorbar blue stretchRight"></div>
+					<i class="fa fa-cloud"></i> Weer
+				</div>
 			</div>
 		</div>
-		<div class="content">
-
+		<div id="stream" class="content">
+			Hier is stream straks
+		</div>
+		<div id="news" class="content">
+			hier is news hier
+		</div>
+		<div  id="weather" class="content">
+			hier is weather straks
 		</div>
 	</div>
 </body>

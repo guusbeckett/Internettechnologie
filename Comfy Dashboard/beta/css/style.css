@@ -123,10 +123,11 @@ a{
 	width: 180px;
 	height: 100%;
 	float: left;
+	cursor: pointer;
 }
 
 .banner .bottom .item:hover{
-	color: #CBC9C9
+	color: #CBC9C9;
 }
 
 .item .colorbar{
